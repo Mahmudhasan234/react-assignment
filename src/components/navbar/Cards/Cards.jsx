@@ -14,9 +14,14 @@ const Cards = () => {
     },[])
     return (
         <div>
-           {
+          <div>
+          {
             data.map(singleData =><SingleCard singleData = {singleData}></SingleCard>)
            } 
+          </div>
+         <div>
+            <singleCart></singleCart>
+         </div>
         </div>
     );
 };

@@ -3,45 +3,45 @@
         "id": 1,
         "author_name": "Ling Zhang",
         "blog_title": "The Art of Debugging in JavaScript",
-        "blog_cover_image": "https://unsplash.com/photos/oXlXu2qukGE",
+        "blog_cover_image": "image/ferenc-almasi-tvHtIGbbjMo-unsplash.jpg",
         "author_image": "https://randomuser.me/api/portraits/women/83.jpg",
         "read_time": "12 min read",
-        "publish_date": "2022-01-15"
+        "publish_date": " January 23 (3 months ago)"
     },
     {
         "id": 2,
         "author_name": "Raj Patel",
         "blog_title": "Best Practices for Writing Efficient SQL Queries",
-        "blog_cover_image": "https://unsplash.com/photos/5eBW5GomfhY",
+        "blog_cover_image": "image/ferenc-almasi-fhAfLtHToCs-unsplash.jpg",
         "author_image": "https://randomuser.me/api/portraits/men/49.jpg",
         "read_time": "9 min read",
-        "publish_date": "2022-02-20"
+        "publish_date": " January 28 (3 months ago)"
     },
     {
         "id": 3,
         "author_name": "Olivia Wong",
         "blog_title": "A Beginner's Guide to React Native",
-        "blog_cover_image": "https://unsplash.com/photos/fhAfLtHToCs",
+        "blog_cover_image": "image/ilya-pavlov-OqtafYT5kTw-unsplash.jpg",
         "author_image": "https://randomuser.me/api/portraits/women/66.jpg",
         "read_time": "16 min read",
-        "publish_date": "2022-03-12"
+        "publish_date": " February 18 (2 months ago)"
     },
     {
         "id": 4,
         "author_name": "Mehmet Ali",
         "blog_title": "10 Common Design Patterns in Object-Oriented Programming",
-        "blog_cover_image": "https://unsplash.com/photos/tvHtIGbbjMo",
+        "blog_cover_image": "image/irvan-smith-5eBW5GomfhY-unsplash.jpg",
         "author_image": "https://randomuser.me/api/portraits/men/7.jpg",
         "read_time": "14 min read",
-        "publish_date": "2022-04-07"
+        "publish_date": "March 15 (20days ago)"
     },
     {
         "id": 5,
         "author_name": "Chen Wei",
         "blog_title": "Using AWS Lambda for Serverless Computing",
-        "blog_cover_image": "https://unsplash.com/photos/SYTO3xs06fU",
+        "blog_cover_image": "image/marvin-meyer-SYTO3xs06fU-unsplash.jpg",
         "author_image": "https://randomuser.me/api/portraits/women/32.jpg",
         "read_time": "11 min read",
-        "publish_date": "2022-05-22"
+        "publish_date": "April 1 (3 days ago)"
     }
 ]
