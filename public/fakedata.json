@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "author_name": "Ling Zhang",
+        "blog_title": "The Art of Debugging in JavaScript",
+        "blog_cover_image": "https://unsplash.com/photos/oXlXu2qukGE",
+        "author_image": "https://randomuser.me/api/portraits/women/83.jpg",
+        "read_time": "12 min read",
+        "publish_date": "2022-01-15"
+    },
+    {
+        "id": 2,
+        "author_name": "Raj Patel",
+        "blog_title": "Best Practices for Writing Efficient SQL Queries",
+        "blog_cover_image": "https://unsplash.com/photos/5eBW5GomfhY",
+        "author_image": "https://randomuser.me/api/portraits/men/49.jpg",
+        "read_time": "9 min read",
+        "publish_date": "2022-02-20"
+    },
+    {
+        "id": 3,
+        "author_name": "Olivia Wong",
+        "blog_title": "A Beginner's Guide to React Native",
+        "blog_cover_image": "https://unsplash.com/photos/fhAfLtHToCs",
+        "author_image": "https://randomuser.me/api/portraits/women/66.jpg",
+        "read_time": "16 min read",
+        "publish_date": "2022-03-12"
+    },
+    {
+        "id": 4,
+        "author_name": "Mehmet Ali",
+        "blog_title": "10 Common Design Patterns in Object-Oriented Programming",
+        "blog_cover_image": "https://unsplash.com/photos/tvHtIGbbjMo",
+        "author_image": "https://randomuser.me/api/portraits/men/7.jpg",
+        "read_time": "14 min read",
+        "publish_date": "2022-04-07"
+    },
+    {
+        "id": 5,
+        "author_name": "Chen Wei",
+        "blog_title": "Using AWS Lambda for Serverless Computing",
+        "blog_cover_image": "https://unsplash.com/photos/SYTO3xs06fU",
+        "author_image": "https://randomuser.me/api/portraits/women/32.jpg",
+        "read_time": "11 min read",
+        "publish_date": "2022-05-22"
+    }
+]
