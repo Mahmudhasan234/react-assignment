@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SingleCard from '../../SingleCard/SingleCard';
 
-const Cards = () => {
+const Cards = ({toalReadTime, setTittleBookmark}) => {
     const [data, setData] = useState([])
     useEffect(()=>{
         const loadData = async() =>{
@@ -16,12 +16,10 @@ const Cards = () => {
         <div>
           <div>
           {
-            data.map(singleData =><SingleCard singleData = {singleData}></SingleCard>)
+            data.map(singleData =><SingleCard toalReadTime={toalReadTime} singleData = {singleData} setTittleBookmark={setTittleBookmark}></SingleCard>)
            } 
           </div>
-         <div>
-            <singleCart></singleCart>
-         </div>
+         
         </div>
     );
 };
