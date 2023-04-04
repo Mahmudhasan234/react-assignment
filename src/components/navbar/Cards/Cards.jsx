@@ -5,7 +5,7 @@ const Cards = ({totalReadTime, setTittleBookmark}) => {
     const [data, setData] = useState([])
     useEffect(()=>{
         const loadData = async() =>{
-            const res = await fetch('../public/fakedata.json')
+            const res = await fetch('fakedata.json')
             const value= await res.json()
             // console.log(data)
             setData(value)
