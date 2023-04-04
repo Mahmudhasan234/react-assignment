@@ -12,7 +12,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           data: ['./public/fakedata.json'],
-          image: ['src/image']
+         
         },
       },
     },
