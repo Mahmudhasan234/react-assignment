@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark} from '@fortawesome/free-solid-svg-icons'
 
-const SingleCard = ({singleData, toalReadTime, setTittleBookmark}) => {
+const SingleCard = ({singleData, totalReadTime, setTittleBookmark}) => {
     // console.log(props.singleData) 
     const { blog_cover_image, author_name, author_image, blog_title, publish_date, read_time } = singleData
     const readTime = parseFloat(read_time)
@@ -32,7 +32,7 @@ const SingleCard = ({singleData, toalReadTime, setTittleBookmark}) => {
                         
                     </div>
                     <h2 className="card-title text-4xl font-bold">{blog_title}</h2>
-                    <button onClick={()=>toalReadTime(readTime)} className='text-left mt-5'> Mark as Read</button>
+                    <button onClick={()=>totalReadTime(readTime)} className='text-left mt-5'> Mark as Read</button>
 
                 </div>
             </div>

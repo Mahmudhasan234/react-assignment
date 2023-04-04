@@ -6,8 +6,8 @@ import Cards from './components/navbar/Cards/Cards'
 import Navbar from './components/navbar/Navbar'
 
 function App() {
-  const [readTime , setreadTime] = useState("")
-const toalReadTime =(time) => {
+  const [readTime, setreadTime] = useState("")
+const totalReadTime =(time) => {
   const previousReadTime =JSON.parse(localStorage.getItem('readTime'))
   if (previousReadTime){
     const sum = previousReadTime + time
@@ -39,7 +39,7 @@ return (
      </div>
      <div className='grid grid-cols-1 lg:grid-cols-12 '>
       <div className='lg:col-span-8'>
-      <Cards toalReadTime={toalReadTime} setTittleBookmark={setTittleBookmark}></Cards>
+      <Cards totalReadTime={totalReadTime} setTittleBookmark={setTittleBookmark}></Cards>
       </div>
       <div className='lg:col-span-4'>
         <SideCart bookmarkTittle={bookMark} readTime={readTime}></SideCart>
