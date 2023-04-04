@@ -6,6 +6,7 @@ import Cards from './components/navbar/Cards/Cards'
 import Navbar from './components/navbar/Navbar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Questions from './components/navbar/Questions/Questions'
 
 function App() {
   const [readTime, setreadTime] = useState("")
@@ -49,6 +50,7 @@ return (
      <div className='grid grid-cols-1 lg:grid-cols-12 '>
       <div className='lg:col-span-8'>
       <Cards totalReadTime={totalReadTime} setTittleBookmark={setTittleBookmark}></Cards>
+      <Questions></Questions>
       </div>
       <div className='lg:col-span-4'>
         <SideCart bookmarkTittle={bookMark} readTime={readTime}></SideCart>
